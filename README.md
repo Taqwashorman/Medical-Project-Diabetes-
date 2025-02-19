@@ -8,37 +8,50 @@ This project aims to improve the accuracy of a Support Vector Machine (SVM) mode
 
 ### Dataset:
 
-The dataset used for this project contains medical records and diagnostic measurements related to diabetes. The dataset includes features such as:
-Pregnancies
-Glucose
-Blood Pressure
-Skin Thickness
-Insulin
-BMI (Body Mass Index)
-Diabetes Pedigree Function
-Age
-Outcome (0 = No Diabetes, 1 = Diabetes)
+The dataset used for this project contains medical records and diagnostic measurements related to diabetes. The dataset includes features such as: 
+Pregnancies 
+,Glucose 
+,Blood Pressure 
+,Skin Thickness 
+,Insulin 
+,BMI (Body Mass Index) 
+,Diabetes Pedigree Function 
+,Age 
+,Outcome (0 = No Diabetes, 1 = Diabetes)
 
 ### Tasks & Methodology:
 
 1. Data Analysis & Preprocessing
+
 Identify missing values and apply appropriate imputation techniques.
+
 Detect and handle outliers using statistical methods.
+
 Check for class imbalance and apply resampling techniques if necessary.
+
 Normalize/scale numerical features for better model performance.
 
-3. Feature Engineering
+2. Feature Engineering
+   
 Perform correlation analysis to remove redundant features.
+
 Create new meaningful features if needed.
+
 Apply Principal Component Analysis (PCA) to reduce dimensionality (if required).
 
-4. Model Optimization
+
+3. Model Optimization
+   
 Tune hyperparameters using Grid Search or Random Search.
+
 Experiment with different kernel functions (linear, RBF, polynomial).
+
 Use feature selection techniques to improve model efficiency.
 
-5. Model Evaluation
+4. Model Evaluation
+   
 Assess the model using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
+
 Perform cross-validation to ensure generalization.
 
 ### Results & Findings
